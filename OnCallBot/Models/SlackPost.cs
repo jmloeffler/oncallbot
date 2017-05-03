@@ -16,7 +16,7 @@
 
     public class SlackResponse
     {
-        public SlackResponse(string text) : this("empemeral", text)
+        public SlackResponse(string text) : this("ephemeral", text)
         {}
 
         public SlackResponse(string responseType, string text)
